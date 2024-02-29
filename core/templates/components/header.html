@@ -16,7 +16,7 @@
     {% if request.user.is_authenticated %}
     <a class="btn btn-primary" href="{% url 'logout' %}">Logout</a>
     {% else %}
-    <a href="{% url 'login' %}" class="btn btn-primary">Login</a>
+    <a href="{% url 'login' %}" class="btn btn-primary">Entrar</a>
     {% endif %}
   </ul>
 </nav>
