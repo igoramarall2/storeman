@@ -1,0 +1,24 @@
+{% extends "core/base.html" %}
+{%block title%}{{title}}{%endblock%} 
+
+{% block content %}
+<h1>{{title}}</h1>
+
+<div class="row">
+    {% for produto in produtos%}
+    <div class="col-sm-2 mb-3">
+        
+        
+        <div class="card h-100">
+            <div class="card-body">
+                <h3>{{produto.codprod}} - {{produto.nameprod}}</h3>
+                <p>{{produto.desprod}}</p>
+                <p>R$ {{produto.priceprod}}</p>
+                
+            </div>
+            
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
