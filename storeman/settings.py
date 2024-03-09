@@ -26,10 +26,7 @@ SECRET_KEY = "django-insecure-647-fw!x$o#4fj2sj@^oojy%x58(#p5=__r^!yjaj%_op#)q6o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "ugsjri.conteige.cloud",
-    "localhost",
-]
+ALLOWED_HOSTS = ["ugsjri.conteige.cloud", "localhost"]
 
 # LOGIN_URL = "login/"
 # LOGIN_REDIRECT_URL = "clientes/"
