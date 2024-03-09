@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-647-fw!x$o#4fj2sj@^oojy%x58(#p5=__r^!yjaj%_op#)q6o
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "niqjne.conteige.cloud",
+    "ugsjri.conteige.cloud",
     "localhost",
 ]
 
